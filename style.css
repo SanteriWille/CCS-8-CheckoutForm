@@ -1,0 +1,174 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+input, select {
+    border: none;
+}
+
+.info, .postal {
+    font-size: small;
+    padding-bottom: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.input1, .input2, .input3, .input4, .input5 {
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    border: 1px solid rgb(104, 101, 101);
+    border-radius: 4px;
+}
+
+.input7 {
+    width: 180px;
+    padding: 5px;
+    display: flex;
+    border: 1px solid rgb(104, 101, 101);
+    border-radius: 4px;
+}
+
+.envelope, .phone, .user, .adress, .city, .country, .postalcode { 
+    width: 15px;
+    padding: 2px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.postal {
+    padding-left: 50px;
+}
+
+.bottom2 {
+    display: flex;
+}
+
+
+.drop {
+    width: 90px;
+    padding: 5px;
+    display: flex;
+    border: 1px solid rgb(104, 101, 101);
+    border-radius: 4px;
+}
+
+.checky {
+    display: flex;
+}
+
+.check {
+    display: flex;
+}
+
+.divbut {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    width: 90px;
+    background-color: rgb(208, 116, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(145, 81, 3);
+    cursor: pointer;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(233, 229, 229);
+    height: 380px;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bilde1, .bilde2 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.vintage, .pris1, .levi, .pris2 {
+    display: flex;
+    padding-left: 15px;
+}
+
+.img1, .img2 {
+    width: 110px;
+    border-radius: 10px;
+}
+
+.minus, .pluss{
+    width: 15px; 
+}
+
+.nummer1 {
+    border: 1px solid black;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.nummer2 {
+    border: 1px solid black;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.shippingcost, .total{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin-top: 15px;
+}
+
+.shippingcost {
+    margin-top: 60px;
+}
+
+.cost1 {
+    margin-bottom: 20px;
+}
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <div class="container">
+        <div class="container1">
+            <div class="contact">
+                <h3>Contact information</h3>
+                <div class="info">email</div>
+                <div class="input1">
+                    <img class="envelope" src="img/envelope-solid.svg" alt="">
+                    <label for="email">
+                        <input type="email" name="email" id="email" placeholder="Enter your email..."></label>
+                </div><br>
+                <div class="info">Phone</div>
+                <div class="input2">
+                    <img class="phone" src="img/phone-solid.svg" alt="">
+                    <label for="phone">
+                        <input type="text" name="phone" id="phone" placeholder="Enter your phone..."></label>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="shipping">
+                <h3>Shipping adress</h3>
+                <div class="info">Full name</div>
+                <div class="input3">
+                    <img class="user" src="img/user-solid.svg" alt="">
+                    <label for="name">
+                        <input class="input" type="text" name="name" id="name"
+                            placeholder="Enter your Full name..."></label>
+                </div><br>
+                <div class="info">Adress</div>
+                <div class="input4">
+                    <img class="adress" src="img/house-solid.svg" alt="">
+                    <label for="adress">
+                        <input type="text" name="adress" id="adress" placeholder="Enter your adress..."></label>
+                </div><br>
+                <div class="info">City</div>
+                <div class="input5">
+                    <img class="city" src="img/city-solid.svg" alt="">
+                    <label for="city">
+                        <input type="text" name="city" id="city" placeholder="Enter your city..."></label>
+                </div><br>
+
+                <div class="bottom">
+                    <div class="info">Country</div>
+                    <div class="postal">Postal code</div>
+                </div>
+                <div class="bottom2">
+                    <div class="drop">
+                        <img class="country" src="img/globe-solid.svg" alt="">
+                        <select name="Country" id="Country">
+                            <option label="Turkey" value="Turkey"></option>
+                            <option label="Finland" value="Finland"></option>
+                            <option label="Japan" value="Japan"></option>
+                        </select>
+                    </div>
+                    <div class="input7">
+                        <img class="postalcode" src="img/envelopes-bulk-solid.svg" alt="">
+                        <label for="postal code">
+                            <input type="text" name="postal code" id="postal code"
+                                placeholder="Enter your postal code..."></label>
+                    </div><br>
+                </div><br>
+                <div class="checky">
+                    <label for="checkbox">
+                        <input class="check" type="checkbox" name="checkbox" id="checkbox"></label>
+                    <div class="info">See this information next time</div>
+                </div>
+            </div>
+            <div class="divbut">
+                <form action="get">
+                    <button class="button">Continue</button>
+                </form>
+            </div>
+        </div>
+        <div class="container2">
+            <div>
+                <div class="bilde1">
+                    <img class="img1" src="img/photo1.png" alt="">
+                    <div>
+                        <div class="vintage"><b>Vintage Backpack</b></div>
+                        <div class="pris1"><b style="color: orange;">$54.99</b> <sub><del>$94.99</del></sub></div>
+                        <div class="nummer1"><img class="minus" src="img/minus-regular-24.png" alt="">1 <img class="pluss" src="img/plus-medical-regular-24.png" alt=""></div> 
+                    </div>
+                </div>
+                <div class="bilde2">
+                    <img class="img2" src="img/photo2.png" alt="">
+                    <div>
+                        <div class="levi"><b>Levi Shoes</b></div>
+                        <div class="pris2"><b style="color: orange;">$74.99</b> <sub><del>$124.99</del></sub></div>
+                        <div class="nummer2"><img class="minus" src="img/minus-regular-24.png" alt="">1 <img class="pluss" src="img/plus-medical-regular-24.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="shippingcost">
+                    <div class="cost1">Shipping</div>
+                    <div class="cost1">$19</div>
+                </div>
+                <div class="total">
+                    <div class="cost2">Total</div>
+                    <div class="cost2">$148.98</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
